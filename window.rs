@@ -104,10 +104,9 @@ impl GameWindow {
     
                 match textures.get(image_path) {
                     Some(texture) => {
-                        // Add a scrollable area
                         ScrollArea::vertical().show(ui, |ui| {
                             ui.centered_and_justified(|ui| {
-                                ui.image(texture,); // Display the image with its original size
+                                ui.image(texture,); 
                             });
                         });
                     },
