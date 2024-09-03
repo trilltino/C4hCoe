@@ -85,7 +85,7 @@ impl GameWindow {
 
     fn update(&mut self, ctx: &egui::Context, _frame: &mut eframe::Frame) {
         TopBottomPanel::top("top_panel").show(ctx, |ui| {
-            ui.label("Double tap A and D to cycle through the story, Run in Fullscreen mode for best experience.");
+            ui.label("Double tap A and D to cycle through the story, ");
             ui.horizontal(|_ui| {
             });
         });
@@ -144,6 +144,7 @@ impl GameWindow {
     }
     }
 }
+ 
     
 
 
